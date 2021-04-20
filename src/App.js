@@ -1,16 +1,17 @@
 import React from "react";
 // import BasicTable from "./components/BasicTable";
-//  import SortingTable from "./components/SortingTable";
+// import SortingTable from "./components/SortingTable";
 //import FilteringTable from "./components/FilteringTable";
-import PaginationTable from "./components/PaginationTable";
+//import PaginationTable from "./components/PaginationTable";
+import RowSelection from "./components/RowSelection";
 
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <div>
       <div>
-        <PaginationTable />
+        <RowSelection />
       </div>
     </div>
   );
