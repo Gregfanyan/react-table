@@ -4,6 +4,7 @@ export const COLUMNS = [
     Header: "id",
     Footer: "id",
     accessor: "id",
+    disableFilters: true,
   },
   {
     Header: "Firstname",
