@@ -4,7 +4,8 @@ import React from "react";
 //import FilteringTable from "./components/FilteringTable";
 //import PaginationTable from "./components/PaginationTable";
 //import RowSelection from "./components/RowSelection";
-import ColumnOrder from "./components/ColumnOrder";
+// import ColumnOrder from "./components/ColumnOrder";
+import ColumnHiding from "./components/ColumnHiding";
 
 import "./App.css";
 
@@ -12,7 +13,7 @@ export default function App() {
   return (
     <div>
       <div>
-        <ColumnOrder />
+        <ColumnHiding />
       </div>
     </div>
   );
