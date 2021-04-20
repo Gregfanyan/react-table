@@ -5,21 +5,24 @@ export const COLUMNS = [
     Footer: "id",
     accessor: "id",
     disableFilters: true,
+    sticky: "left",
   },
   {
     Header: "Firstname",
     Footer: "Firstname",
     accessor: "first_name",
+    sticky: "left",
   },
   {
     Header: "Lastname",
     Footer: "Lastname",
     accessor: "last_name",
+    sticky: "left",
   },
-  /*   {
-      Header: "Email",
-      accessor: "email"
-    }, */
+  {
+    Header: "Email",
+    accessor: "email",
+  },
   {
     Header: "Date of Birth",
     Footer: "Date of Birth",
@@ -28,10 +31,10 @@ export const COLUMNS = [
       return format(new Date(value), "dd/MM/yyyy");
     },
   },
-  /*   {
-      Header: "Age",
-      accessor: "age"
-    }, */
+  {
+    Header: "Age",
+    accessor: "age",
+  },
   {
     Header: "Country",
     Footer: "Country",
